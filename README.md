@@ -14,7 +14,7 @@ This document outlines key strategies for effective decision-making and executio
 - **Importance of Clarity:** Ensuring everyone has a clear understanding of the decision at hand.
 - **Avoiding Misunderstandings:** Strategies to prevent different interpretations and ensure a unified direction.
 
-## Share the Decision Making Process
+## Share the Decision-Making Process
 - **Advance Communication:** Informing the team about upcoming decisions to prepare and contribute effectively.
 - **Inclusivity in Decision Making:** Engaging diverse perspectives for a richer decision-making process.
 
@@ -31,7 +31,7 @@ This document outlines key strategies for effective decision-making and executio
 - **Team Alignment:** Ensuring that the entire team is on the same page post-decision.
 
 ## Conclusion
-A well-structured approach to decision making and execution is crucial for team alignment and effectiveness. By following these guidelines, teams can enhance their decision-making processes and work more cohesively towards their goals.
+A well-structured approach to decision-making and execution is crucial for team alignment and effectiveness. By following these guidelines, teams can enhance their decision-making processes and work more cohesively towards their goals.
 
 ## Additional Resources
 - [Link to full case study](#)
