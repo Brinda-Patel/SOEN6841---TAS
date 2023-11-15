@@ -1,37 +1,51 @@
-% This is samplepaper.tex, a sample chapter demonstrating the
-% LLNCS macro package for Springer Computer Science proceedings;
-% Version 2.20 of 2017/10/04
-%
-\documentclass[runningheads]{llncs}
-\usepackage{amsmath}
-\usepackage{hyperref}
-%
+\documentclass[12pt]{article}
+
+% Load necessary packages
+\usepackage{geometry}
 \usepackage{graphicx}
-% Used for displaying a sample figure. If possible, figure files should
-% be included in EPS format.
-%
-% If you use the hyperref package, please uncomment the following line
-% to display URLs in blue roman font according to Springer's eBook style:
-% \renewcommand\UrlFont{\color{blue}\rmfamily}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+% Set page margins
+\geometry{left=3cm, right=3cm, top=2cm, bottom=2cm}
+
+% Define colors for hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=blue
+}
 
 \begin{document}
-%
-\title{How to Share Decisions for Strong Execution}
-%
-%\titlerunning{Abbreviated paper title}
-% If the paper title is too long for the running head, you can set
-% an abbreviated paper title here
-%
-\author{Brinda Pareshbhai Patel}
-%
-\institute{Computer Science and Software Engineering, Concordia University \\
-\vspace{10pt}  VCS: Github: \href{https://github.com/Brinda-Patel/SOEN6841-TAS}{https://github.com/Brinda-Patel/SOEN6841-TAS}}
 
-%
-\maketitle              % typeset the header of the contribution
-%
+\begin{titlepage}
+    \centering
+    % Add your image path here
+    % \includegraphics[width=0.8\textwidth]{image.jpeg}\par
+     \vspace{2cm}
+    {\scshape\Large SOEN6841: Topic Analysis and Synthesis Report \par}
+    \vspace{1.5cm}
+    {\scshape\Huge How to Share Decisions for Strong Execution\par}
+    \vspace{1.5cm}
+    % {\large Advisor: Professor Pankaj Kamthan\par}
+    \vspace{1.5cm}
+    {\large By: Brinda Pareshbhai Patel (Student ID: 40218974)\par}
+    \vspace{1cm}
+    {\large \today\par}
+\end{titlepage}
 
-\begin{abstract}
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Abstract Section
+\section*{Abstract}
+
 Effective decision-making and communication within teams are fundamental to strong execution and team alignment. This paper, drawing insights from Katie Womersley's case study, delves into various strategies for enhancing decision-sharing processes in organizational settings. Central to these strategies is the necessity of clarifying decisions, a step that mitigates the risk of misinterpretation and ensures a unified understanding across the team. This involves articulating decisions in a clear, unambiguous manner and avoiding assumptions about common knowledge.
 
 The study further emphasizes the importance of preemptive communication about decision-making processes. By informing team members about upcoming decisions, the paper argues for a more inclusive environment where diverse viewpoints can be considered, particularly benefiting those who require time for contemplation. This approach aids in preparing the team and in gathering a wider range of perspectives, thereby enriching the decision-making process.
@@ -41,11 +55,34 @@ Additionally, the paper highlights the role of clear designation of decision-mak
 The necessity of documenting decisions is also discussed. The paper advocates for recording decisions in an accessible and persistent format, such as a digital document, facilitating future references and ensuring consistency in understanding and implementation. This documentation process serves as a reference point for all team members, aiding in aligning actions with decisions.
 
 Finally, the paper addresses the challenge of time investment in communication. It argues that while thorough and proactive communication can be time-consuming, it is far less costly than the repercussions of miscommunication, such as redoing work or mending strained relationships. The paper concludes that a team aligned in understanding and direction through effective communication and decision-sharing is more efficient and effective in achieving its objectives.
-\end{abstract}
-%
-%
-%
 
+\newpage
+
+\section{Introduction}
+
+\subsection{Motivation}
+\begin{itemize}
+  \item The growing prevalence of remote work environments and distributed teams in modern organizations.
+  \item Challenges in decision-making processes and communication in non-collocated teams.
+  \item The need for structured and transparent decision-making methods to enhance team alignment and efficiency.
+  \item The importance of documentation and clear communication in decentralized team structures.
+\end{itemize}
+
+\subsection{Problem Statement}
+\begin{itemize}
+  \item Exploring the impact of decision-making clarity and communication strategies in distributed teams.
+  \item Investigating the role of decision documentation and role clarity in fostering effective team collaboration and execution.
+  \item Understanding how these strategies can mitigate common challenges faced by remote teams.
+\end{itemize}
+
+\subsection{Objectives}
+\begin{itemize}
+  \item To delineate best practices for decision making and communication in distributed teams.
+  \item To provide insights into effective use of tools and methodologies like RACI matrices for enhancing team clarity and coordination.
+  \item To guide team leaders and members in adopting strategies that support better decision-making and communication in a remote setup.
+\end{itemize}
+
+% (Add subsequent sections like Methodology, Case Study Analysis, Conclusion, References as needed)
 \begin{thebibliography}{8}
     \bibitem{reference1}
     EIA application in China’s expressway infrastructure: Clarifying the decision-making hierarchy \url{https://www.sciencedirect.com/science/article/pii/S0301479710004524}
@@ -55,5 +92,4 @@ Finally, the paper addresses the challenge of time investment in communication. 
     Implementing shared decision-making in routine practice: barriers and opportunities It?,”\url{https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1369-6513.2000.00093.x}
     
 \end{thebibliography}
-
 \end{document}
